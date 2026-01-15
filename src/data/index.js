@@ -1,4 +1,6 @@
 import profileImg from "../assets/profile.jpg";
+import abProfileImg from "../assets/Ab.jpeg";
+import aqProfileImg from "../assets/aqImage.png";
 
 export const services = [
     {
@@ -66,6 +68,26 @@ export const team = [
         description:
             'Builds scalable backend systems, writes reliable tests, and explores practical AI to improve real-world workflows.',
         avatar: profileImg,
+        socials: [
+            {type: 'linkedin', href: 'https://www.linkedin.com/in/zunair-sarwar-401323221/'}
+        ]
+    },
+    {
+        name: 'Abdullah Rashid',
+        role: 'UI/UX Designer · AI Applications',
+        description:
+            'Designs intuitive user interfaces and creates user-centered experiences that turn complex ideas into clean functional designs that scale across products.',
+        avatar: abProfileImg,
+        socials: [
+            {type: 'linkedin', href: 'https://www.linkedin.com/in/abdullah-rashid-1b4028223/'}
+        ]
+    },
+    {
+        name: 'Abdul Qudoos',
+        role: 'Creative Designer',
+        description:
+            'Creates engaging visual experiences through graphic design, UI/UX, motion graphics, 3D modeling, video editing, and product shoots.',
+        avatar: aqProfileImg,
         socials: [
             {type: 'linkedin', href: '#'}
         ]
