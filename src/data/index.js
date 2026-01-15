@@ -1,6 +1,7 @@
 import profileImg from "../assets/profile.jpg";
 import abProfileImg from "../assets/Ab.jpeg";
 import aqProfileImg from "../assets/aqImage.png";
+import umProfileImg from "../assets/UmairResumeImage.jpg";
 
 export const services = [
     {
@@ -92,11 +93,11 @@ export const team = [
             {type: 'linkedin', href: '#'}
         ]
     }, {
-        name: 'Elena Park',
-        role: 'Founder · Project Manager',
+        name: 'Umair Sarwar',
+        role: 'Graphic Designer',
         description:
-            'Leads discovery, roadmapping, and delivery so every sprint ships something that matters.',
-        avatar: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
+            'I transform complex ideas into visually compelling designs that engage audiences and create meaningful connections.',
+        avatar: umProfileImg,
         socials: [
             {type: 'linkedin', href: '#'}
         ]
