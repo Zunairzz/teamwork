@@ -3,25 +3,29 @@ import { Link } from 'react-router-dom';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 import { ProcessStep } from '../components/ProcessStep.jsx';
 import { processSteps } from '../data/index.js';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import ForumIcon from '@mui/icons-material/Forum';
+import AutorenewIcon from '@mui/icons-material/Autorenew';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 const processBenefits = [
   {
-    icon: '📋',
+    icon: <AssignmentIcon fontSize="inherit" />,
     title: 'Clear Roadmap',
     description: 'You always know what\'s happening next with transparent timelines and milestones.'
   },
   {
-    icon: '💬',
+    icon: <ForumIcon fontSize="inherit" />,
     title: 'Regular Updates',
     description: 'Weekly demos and progress reports keep you in the loop every step of the way.'
   },
   {
-    icon: '🔄',
+    icon: <AutorenewIcon fontSize="inherit" />,
     title: 'Flexible Process',
     description: 'We adapt our workflow to fit your needs, not the other way around.'
   },
   {
-    icon: '✅',
+    icon: <CheckCircleOutlineIcon fontSize="inherit" />,
     title: 'Quality Assurance',
     description: 'Every step includes review and testing to ensure nothing falls through the cracks.'
   }

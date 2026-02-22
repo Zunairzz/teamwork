@@ -3,7 +3,13 @@ import { Link } from 'react-router-dom';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 import { TeamCard } from '../components/TeamCard.jsx';
 import { team } from '../data/index.js';
-
+import TrackChangesIcon from '@mui/icons-material/TrackChanges';
+import HandshakeIcon from '@mui/icons-material/Handshake';
+import FlashOnIcon from '@mui/icons-material/FlashOn';
+import DiamondIcon from '@mui/icons-material/Diamond';
+import ForumIcon from '@mui/icons-material/Forum';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import AutorenewIcon from '@mui/icons-material/Autorenew';
 const teamStats = [
   { value: '15+', label: 'Years Combined Experience' },
   { value: '20+', label: 'Projects Delivered' },
@@ -13,22 +19,22 @@ const teamStats = [
 
 const values = [
   {
-    icon: '🎯',
+    icon: <TrackChangesIcon fontSize="inherit" />,
     title: 'Results-Driven',
     description: 'We focus on outcomes, not just deliverables. Every project is measured by its impact.'
   },
   {
-    icon: '🤝',
+    icon: <HandshakeIcon fontSize="inherit" />,
     title: 'Collaborative',
     description: 'We work as an extension of your team, not a separate vendor. Your success is our success.'
   },
   {
-    icon: '⚡',
+    icon: <FlashOnIcon fontSize="inherit" />,
     title: 'Fast & Efficient',
     description: 'We move quickly without sacrificing quality. Most projects ship in 8-12 weeks.'
   },
   {
-    icon: '💎',
+    icon: <DiamondIcon fontSize="inherit" />,
     title: 'Premium Quality',
     description: 'We don\'t cut corners. Every detail matters, from code quality to pixel-perfect design.'
   }
@@ -236,7 +242,7 @@ export function Team() {
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-sm">
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent/10 text-accent">
-                    💬
+                    <ForumIcon fontSize="small" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-slate-50">Slack Integration</p>
@@ -245,7 +251,7 @@ export function Team() {
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent/10 text-accent">
-                    📅
+                    <CalendarMonthIcon fontSize="small" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-slate-50">Weekly Demos</p>
@@ -254,7 +260,7 @@ export function Team() {
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent/10 text-accent">
-                    🔄
+                    <AutorenewIcon fontSize="small" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-slate-50">Transparent Process</p>

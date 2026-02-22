@@ -1,25 +1,30 @@
 import { motion } from 'framer-motion';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 import { ContactForm } from '../components/ContactForm.jsx';
+import FlashOnIcon from '@mui/icons-material/FlashOn';
+import ForumIcon from '@mui/icons-material/Forum';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import HandshakeIcon from '@mui/icons-material/Handshake';
+import EmailIcon from '@mui/icons-material/Email';
 
 const benefits = [
   {
-    icon: '⚡',
+    icon: <FlashOnIcon fontSize="inherit" />,
     title: 'Fast Response',
     description: 'We respond to all inquiries within 24 hours, often sooner.'
   },
   {
-    icon: '💬',
+    icon: <ForumIcon fontSize="inherit" />,
     title: 'Free Consultation',
     description: 'No obligation consultation to discuss your project needs.'
   },
   {
-    icon: '📋',
+    icon: <AssignmentIcon fontSize="inherit" />,
     title: 'Transparent Pricing',
     description: 'Clear, upfront pricing with no hidden fees or surprises.'
   },
   {
-    icon: '🤝',
+    icon: <HandshakeIcon fontSize="inherit" />,
     title: 'No Long Contracts',
     description: 'Work with us project-by-project, no long-term commitments.'
   }
@@ -144,7 +149,7 @@ export function Contact() {
               <div className="rounded-2xl border border-slate-200/80 bg-surface-light/80 p-6 dark:border-slate-700 dark:bg-surface-dark/80">
                 <div className="flex items-center gap-3">
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent/10 text-accent">
-                    ✉
+                    <EmailIcon fontSize="small" />
                   </span>
                   <div>
                     <p className="text-sm font-semibold text-slate-900 dark:text-slate-50">Email Us Directly</p>
@@ -156,11 +161,11 @@ export function Contact() {
                     </a>
                   </div>
                 </div>
-                <div className="mt-4 flex flex-wrap gap-2 text-xs">
-                  <span className="pill">Slack‑first collaboration</span>
-                  <span className="pill">Weekly demos</span>
-                  <span className="pill">Figma & GitHub access</span>
-                </div>
+                {/*<div className="mt-4 flex flex-wrap gap-2 text-xs">*/}
+                {/*  <span className="pill">Slack‑first collaboration</span>*/}
+                {/*  <span className="pill">Weekly demos</span>*/}
+                {/*  <span className="pill">Figma & GitHub access</span>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>
@@ -187,8 +192,8 @@ export function Contact() {
             className="grid gap-6 md:grid-cols-3"
           >
             <div className="text-center">
-              <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-100 text-2xl dark:bg-emerald-900/30">
-                ⚡
+              <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-100 text-2xl text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-400">
+                <FlashOnIcon fontSize="inherit" />
               </div>
               <h3 className="mb-2 text-sm font-semibold text-slate-900 dark:text-slate-50">
                 24-Hour Response
@@ -198,8 +203,8 @@ export function Contact() {
               </p>
             </div>
             <div className="text-center">
-              <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-100 text-2xl dark:bg-blue-900/30">
-                💬
+              <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-100 text-2xl text-blue-600 dark:bg-blue-900/30 dark:text-blue-400">
+                <ForumIcon fontSize="inherit" />
               </div>
               <h3 className="mb-2 text-sm font-semibold text-slate-900 dark:text-slate-50">
                 Free Consultation
@@ -209,8 +214,8 @@ export function Contact() {
               </p>
             </div>
             <div className="text-center">
-              <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-100 text-2xl dark:bg-purple-900/30">
-                📋
+              <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-100 text-2xl text-purple-600 dark:bg-purple-900/30 dark:text-purple-400">
+                <AssignmentIcon fontSize="inherit" />
               </div>
               <h3 className="mb-2 text-sm font-semibold text-slate-900 dark:text-slate-50">
                 Transparent Process

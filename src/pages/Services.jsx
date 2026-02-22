@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 import { ServiceCard } from '../components/ServiceCard.jsx';
 import { services } from '../data/index.js';
-
+import TrackChangesIcon from '@mui/icons-material/TrackChanges';
+import FlashOnIcon from '@mui/icons-material/FlashOn';
+import HandshakeIcon from '@mui/icons-material/Handshake';
+import DiamondIcon from '@mui/icons-material/Diamond';
 const serviceStats = [
   { value: '100%', label: 'Client Satisfaction' },
   { value: '8-12', label: 'Week Delivery' },
@@ -13,22 +16,22 @@ const serviceStats = [
 
 const whyChooseUs = [
   {
-    icon: '🎯',
+    icon: <TrackChangesIcon fontSize="inherit" />,
     title: 'Full-Stack Expertise',
     description: 'From design to deployment, we handle every aspect of your project.'
   },
   {
-    icon: '⚡',
+    icon: <FlashOnIcon fontSize="inherit" />,
     title: 'Fast Turnaround',
     description: 'Most projects ship in 8-12 weeks without compromising quality.'
   },
   {
-    icon: '🤝',
+    icon: <HandshakeIcon fontSize="inherit" />,
     title: 'Collaborative Approach',
     description: 'We work as an extension of your team, not a separate vendor.'
   },
   {
-    icon: '💎',
+    icon: <DiamondIcon fontSize="inherit" />,
     title: 'Premium Quality',
     description: 'Every detail matters - from pixel-perfect design to clean code.'
   }
