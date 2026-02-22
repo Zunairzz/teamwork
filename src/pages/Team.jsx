@@ -6,7 +6,7 @@ import { team } from '../data/index.js';
 
 const teamStats = [
   { value: '15+', label: 'Years Combined Experience' },
-  { value: '30+', label: 'Projects Delivered' },
+  { value: '20+', label: 'Projects Delivered' },
   { value: '100%', label: 'Remote Team' },
   { value: '24/7', label: 'Global Coverage' }
 ];

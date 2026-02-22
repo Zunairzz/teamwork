@@ -7,7 +7,7 @@ import { services } from '../data/index.js';
 const serviceStats = [
   { value: '100%', label: 'Client Satisfaction' },
   { value: '8-12', label: 'Week Delivery' },
-  { value: '30+', label: 'Projects Completed' },
+  { value: '20+', label: 'Projects Completed' },
   { value: '24/7', label: 'Support Available' }
 ];
 

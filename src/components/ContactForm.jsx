@@ -102,10 +102,10 @@ export function ContactForm() {
         <p className="text-xs text-slate-500 dark:text-slate-400">
           Or email us directly:{' '}
           <a
-            href="mailto:hello@novacollective.studio"
+            href="mailto:zamantariq09900@gmail.com"
             className="font-medium text-slate-900 underline-offset-4 hover:underline dark:text-slate-100"
           >
-            hello@novacollective.studio
+            zamantariq09900@gmail.com
           </a>
         </p>
       </div>

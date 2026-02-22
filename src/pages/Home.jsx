@@ -5,7 +5,7 @@ import { PortfolioCard } from '../components/PortfolioCard.jsx';
 import { services, portfolio } from '../data/index.js';
 
 const stats = [
-  { value: '30+', label: 'Projects Launched' },
+  { value: '20+', label: 'Projects Launched' },
   { value: '95%', label: 'Client Satisfaction' },
   { value: '8-12', label: 'Week Delivery' },
   { value: '6', label: 'Expert Team Members' }

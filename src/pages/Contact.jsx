@@ -144,15 +144,15 @@ export function Contact() {
               <div className="rounded-2xl border border-slate-200/80 bg-surface-light/80 p-6 dark:border-slate-700 dark:bg-surface-dark/80">
                 <div className="flex items-center gap-3">
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent/10 text-accent">
-                    ✉︎
+                    ✉
                   </span>
                   <div>
                     <p className="text-sm font-semibold text-slate-900 dark:text-slate-50">Email Us Directly</p>
                     <a
-                      href="mailto:hello@novacollective.studio"
+                      href="mailto:zamantariq09900@gmail.com"
                       className="text-sm text-accent underline-offset-4 hover:underline"
                     >
-                      hello@novacollective.studio
+                      zamantariq09900@gmail.com
                     </a>
                   </div>
                 </div>

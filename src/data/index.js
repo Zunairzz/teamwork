@@ -2,6 +2,8 @@ import profileImg from "../assets/profile.jpg";
 import abProfileImg from "../assets/Ab.jpeg";
 import aqProfileImg from "../assets/aqImage.png";
 import umProfileImg from "../assets/UmairResumeImage.jpg";
+import zamanProfileImg from "../assets/ZamanResumeImage2.jpg";
+import hibbanProfileImg from "../assets/Hibban.png";
 
 export const services = [
     {
@@ -70,7 +72,19 @@ export const team = [
             'Builds scalable backend systems, writes reliable tests, and explores practical AI to improve real-world workflows.',
         avatar: profileImg,
         socials: [
+            {type: 'github', href: 'https://github.com/Zunairzz'},
             {type: 'linkedin', href: 'https://www.linkedin.com/in/zunair-sarwar-401323221/'}
+        ]
+    },
+    {
+        name: 'Zaman Tariq',
+        role: 'Software Engineer · AI Applications',
+        description:
+            'I break down complex user experience problems to create integrity-focused solutions that connect billions of people.',
+        avatar: zamanProfileImg,
+        socials: [
+            {type: 'github', href: 'https://github.com/Zamanjutt'},
+            {type: 'linkedin', href: 'https://www.linkedin.com/in/zaman-tariq-931738230/'}
         ]
     },
     {
@@ -103,60 +117,15 @@ export const team = [
         ]
     },
     {
-        name: 'Daniel Reyes',
-        role: 'Full‑Stack Developer',
+        name: 'Hiban Hukam Din',
+        role: 'Creative Designer | Animation & 3D. Designer',
         description:
-            'Builds resilient backend services and clean APIs that keep the product fast and maintainable.',
-        avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+            'Multimedia Designer skilled in Graphic Design, Animation, and ۳D Modeling',
+        avatar: hibbanProfileImg,
         socials: [
-            {type: 'github', href: '#'},
             {type: 'linkedin', href: '#'}
         ]
     },
-    {
-        name: 'Mara Iqbal',
-        role: 'Frontend Developer',
-        description:
-            'Specializes in motion, micro‑interactions, and design‑system driven React interfaces.',
-        avatar: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400',
-        socials: [
-            {type: 'github', href: '#'},
-            {type: 'linkedin', href: '#'}
-        ]
-    },
-    {
-        name: 'Jonas Keller',
-        role: 'UI/UX Designer',
-        description:
-            'Crafts product journeys that feel obvious in hindsight and joyful in day‑to‑day use.',
-        avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400',
-        socials: [
-            {type: 'dribbble', href: '#'},
-            {type: 'linkedin', href: '#'}
-        ]
-    },
-    {
-        name: 'Amina Duarte',
-        role: 'Product Designer · Figma',
-        description:
-            'From concept boards to production files, she keeps Figma as the single source of truth.',
-        avatar: 'https://images.pexels.com/photos/1181595/pexels-photo-1181595.jpeg?auto=compress&cs=tinysrgb&w=400',
-        socials: [
-            {type: 'dribbble', href: '#'},
-            {type: 'linkedin', href: '#'}
-        ]
-    },
-    {
-        name: 'Leo Marin',
-        role: 'Brand & Graphic Designer',
-        description:
-            'Owns visual identity, campaigns, and decks across Adobe tools so everything feels on‑brand.',
-        avatar: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=400',
-        socials: [
-            {type: 'dribbble', href: '#'},
-            {type: 'linkedin', href: '#'}
-        ]
-    }
 ];
 
 export const portfolio = [

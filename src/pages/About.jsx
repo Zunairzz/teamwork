@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 
 const aboutStats = [
-  { value: '30+', label: 'Projects Launched' },
+  { value: '20+', label: 'Projects Launched' },
   { value: '6', label: 'Team Members' },
   { value: '15+', label: 'Years Experience' },
   { value: 'Global', label: 'Remote Team' }
@@ -50,8 +50,8 @@ const milestones = [
   },
   {
     year: '2024',
-    title: '30+ Projects',
-    description: 'Celebrated 30+ successful launches and 95% client satisfaction rate.'
+    title: '20+ Projects',
+    description: 'Celebrated 20+ successful launches and 95% client satisfaction rate.'
   }
 ];
 
@@ -138,7 +138,7 @@ export function About() {
             </p>
             <div className="grid gap-4 text-xs text-slate-500 sm:grid-cols-3 dark:text-slate-400">
               <div>
-                <p className="text-2xl font-semibold text-slate-900 dark:text-slate-50">30+</p>
+                <p className="text-2xl font-semibold text-slate-900 dark:text-slate-50">20+</p>
                 <p>Product launches shipped with startups and in‑house teams.</p>
               </div>
               <div>
